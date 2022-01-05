@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="images/style.css"/>
+</head>
+<body>
+    <div class="center"></div>
+  <img class="hero-img" src="images/logo.svg"/>
+<div class="container"> 
+<div class="container-wrap">
+   <div class="left">
+     <div class="bill">
+     <h4 >bill</h4>
+  <div class="input-wrapper">
+    <img class="input-icon" src="images/icon-dollar.svg" alt="">
+     <input  value="0" type="text"/>
+    </div>
+   </div>
+
+   <div class="selection">
+      <h4>Select Tip %</h4>
+      <div class="row">
+        <button class="col"> 5%</button>
+        <button class="col"> 10%</button>
+        <button class="col"> 15%</button>
+        <button class="col"> 25%</button>
+        <button class="col"> 50%</button>
+        <button class="col"> custom</button>
+      </div>
+   </div>
+
+   <div class="number-of__people">
+    <h4 >number of people</h4>
+     <div class="input-wrapper">
+    <img class="input-icon" src="images/icon-person.svg"/>
+    <input  value="0" type="number"/>
+  </div>
+   </div>
+  </div>
+
+
+  <div class="right"> 
+    <div class="cotent">
+  <div class="person">
+    <div>
+    <h4>Tip amount</h4>
+    <p class="p">/person</p>
+  </div>
+    <h2 class="cash">$4.27</h2>
+  </div>
+
+  <div class="total">
+    <div>
+    <h4>Total</h4>
+    <p class="p">/person</p>
+  </div>
+    <h2 class="cash">$3.67</h2>
+  </div>
+</div>
+  <button class="reset">RESET</button>
+</div>
+
+
+</div>
+</body>
+</html>
